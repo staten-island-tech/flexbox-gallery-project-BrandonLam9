@@ -9,4 +9,10 @@ body,
 
 .parent {
   font-size: 10px;
+  border: 1rem solid red;
+  display: flex;
+  justify-content: space-around;
+}
+h2 {
+  margin: 1rem;
 }
