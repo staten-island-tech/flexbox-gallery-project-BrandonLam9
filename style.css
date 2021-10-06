@@ -7,33 +7,31 @@ body,
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
 }
-
 .about-post1 {
-  font-size: 10rem;
   border: 5rem solid red;
-  display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 .about-post2 {
-  font-size: 10rem;
   border: 5rem solid red;
-  display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
-
 .about-post3 {
-  font-size: 10rem;
   border: 5rem solid red;
-  display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-h2 {
-  margin: 5rem;
+h1 {
+  height: 10vh;
+  font-size: 20rem;
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
