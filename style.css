@@ -11,18 +11,23 @@ body,
   flex-wrap: wrap;
   justify-content: space-around;
   height: 120%;
+  background-color: #b3e5fc;
 }
 .post {
-  height: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50rem;
   width: 26%;
   margin: 1rem auto;
-  box-shadow: 10px 5px 5px gray;
+  box-shadow: 2rem 1rem 1rem gray;
+  border: 1rem solid white;
+  padding-left: 18rem;
+  background-color: #fce168;
 }
 .header-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 20rem;
+  font-size: 15rem;
   text-align: center;
-  background-color: blue;
-}
-.images {
+  background-color: #03a9f4;
+  border: 1rem solid white;
 }
