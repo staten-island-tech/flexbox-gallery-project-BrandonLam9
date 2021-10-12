@@ -16,8 +16,8 @@ body,
 .post {
   display: flex;
   flex-wrap: wrap;
-  height: 50rem;
-  width: 26%;
+  height: 30rem;
+  width: 30%;
   margin: 1rem auto;
   box-shadow: 2rem 1rem 1rem gray;
   border: 1rem solid white;
