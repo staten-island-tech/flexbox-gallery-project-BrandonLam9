@@ -31,3 +31,30 @@ body,
   background-color: #03a9f4;
   border: 1rem solid white;
 }
+.animation {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  animation: loading;
+  animation-iteration-count: infinite;
+  z-index: 100;
+}
+@keyframes loading;
+ {
+  0% {
+    left: 14rem;
+    bottom: 4rem;
+  }
+  33% {
+    left: 18rem;
+    bottom: 8rem;
+  }
+  66% {
+    left: 14rem;
+    bottom: 4rem;
+  }
+  100% {
+    left: 18rem;
+    bottom: 8rem;
+  }
+}
