@@ -24,6 +24,7 @@ body,
   padding-left: 18rem;
   background-color: #fce168;
 }
+
 .header-title {
   font-family: "Montserrat", sans-serif;
   font-size: 15rem;
@@ -32,38 +33,47 @@ body,
   border: 1rem solid white;
 }
 .animation {
-  height: 2rem;
-  width: 2rem;
-  position:sticky;
-  animation-name: loading;
-  animation-duration: 5s;
-
-  animation-fill-mode: forwards
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  color: white;
 }
-@-webkit-keyframes loading
- {
+@keyframes test {
   0% {
-    left: 14rem;
-    bottom: 4rem;
-    background-color:black;
-    transform: scale(3);
+    left: 50%;
+    bottom: 50%;
+    background-color: #e03636;
   }
   33% {
-    left: 18rem;
-    bottom: 8rem;
-    background-color:white;
-    transform: scale(2);
+    left: 60%;
+    bottom: 60%;
+    background-color: #de6262;
+    transform: scale(0.6);
   }
   66% {
-    left: 14rem;
-    bottom: 4rem;
-    background-color: black;
-    transform: scale(3);
+    left: 40%;
+    bottom: 40%;
+    background-color: #e39898;
+    transform: scale(0.3);
   }
   100% {
-    left: 18rem;
-    bottom: 8rem;
-    background-color: white;
-    transform: scale(2);
+    left: 50%;
+    bottom: 50%;
+    transform: scale(0);
   }
 }
+.dubai:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease-in;
+}
+.la:hover {
+  border: solid green;
+  background-color: lime;
+}
+.london:hover {
+  transform: scale(1.04);
+  transform: skew(4deg, 10deg);
+  
