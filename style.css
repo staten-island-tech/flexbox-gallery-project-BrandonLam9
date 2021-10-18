@@ -24,6 +24,7 @@ body,
   padding-left: 18rem;
   background-color: #fce168;
 }
+
 .header-title {
   font-family: "Montserrat", sans-serif;
   font-size: 15rem;
@@ -32,29 +33,39 @@ body,
   border: 1rem solid white;
 }
 .animation {
-  height: 10rem;
-  width: 10rem;
-  position: absolute;
-  animation: loading;
-  animation-iteration-count: infinite;
-  z-index: 100;
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  color: white;
 }
-@keyframes loading;
- {
+@keyframes test {
   0% {
-    left: 14rem;
-    bottom: 4rem;
+    left: 50%;
+    bottom: 50%;
+    background-color: #e03636;
   }
   33% {
-    left: 18rem;
-    bottom: 8rem;
+    left: 60%;
+    bottom: 60%;
+    background-color: #de6262;
+    transform: scale(0.6);
   }
   66% {
-    left: 14rem;
-    bottom: 4rem;
+    left: 40%;
+    bottom: 40%;
+    background-color: #e39898;
+    transform: scale(0.3);
   }
   100% {
-    left: 18rem;
-    bottom: 8rem;
+    left: 50%;
+    bottom: 50%;
+    transform: scale(0);
   }
+}
+.dubai:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
