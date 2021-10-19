@@ -14,6 +14,9 @@ body,
   background-color: #b3e5fc;
 }
 .post {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   height: 30rem;
   width: 30%;
   margin: 1rem auto;
@@ -82,15 +85,15 @@ body,
 }
 .moscow:hover {
   transition: all 0.2s ease-in;
-  transform: rotate(-5deg);
+  transform: scale(1.09) rotate(-5deg);
 }
 .ny:hover {
   transform: scale(2) translate(60px, 10%);
   transition: all 0.7s ease-in;
 }
-@media all (max-width: 750px);
+@media screen (max-width: 720px);
  {
-  body {
+  .main {
     background-color: red;
   }
 }
